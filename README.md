@@ -16,15 +16,15 @@ python3 safe_simulator.py
 
 
 1) 📡 WiFi mode
-python3 safe_simulator.py wifi
+$ python3 safe_simulator.py wifi
 
 2) 📶 Bluetooth mode
-python3 safe_simulator.py bluetooth
+$ python3 safe_simulator.py bluetooth
 
 3) simulation
-python3 safe_simulator.py all
+$ python3 safe_simulator.py all
 
 
 
 4)
-python3 safe_simulator.py wifi -t 192.168.1.1 -p 5 -d 10
+$ python3 safe_simulator.py wifi -t 192.168.1.1 -p 5 -d 10
