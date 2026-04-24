@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Update Kali's config for genmon plugin
+Exec=/usr/share/kali-themes/fix-old-genmon-config.sh
+OnlyShowIn=XFCE;
+RunHook=1
+StartupNotify=false
+Terminal=false
+
