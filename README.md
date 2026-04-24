@@ -1,9 +1,15 @@
-# Safe Simulator
+# RF Simulation Tool
 
-Educational RF simulation tool.
+## Description
+This project is a **safe and educational simulation tool** for learning how wireless signals behave in controlled environments.
+
+It is designed for **training and understanding concepts**, not for real-world interference.
+
+## Features
+- WiFi simulation mode
+- Adjustable duration
+- Lightweight and simple to use
 
 ## Usage
-./safe_simulator.py wifi -d 3
-
-## Note
-Simulation only (no real jamming).
+```bash
+python3 safe_simulator.py wifi -d 3
