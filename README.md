@@ -1,15 +1,14 @@
-# RF Simulation Tool
+# Installation
 
-## Description
-This project is a **safe and educational simulation tool** for learning how wireless signals behave in controlled environments.
+## Linux / Kali
 
-It is designed for **training and understanding concepts**, not for real-world interference.
-
-## Features
-- WiFi simulation mode
-- Adjustable duration
-- Lightweight and simple to use
-
-## Usage
 ```bash
-python3 safe_simulator.py wifi -d 3
+git clone https://github.com/zaazouamouad/jammer.git
+cd jammer
+bash install.sh
+
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/zaazouamouad/jammer.git
+cd jammer
+bash install.sh
